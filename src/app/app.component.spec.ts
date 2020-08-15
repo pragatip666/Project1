@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      //declarations: [ homecomponent ],
+      //schemas: [NO_ERRORS_SCHEMA]
       imports: [
         RouterTestingModule
       ],
@@ -13,6 +15,7 @@ describe('AppComponent', () => {
       ],
     }).compileComponents();
   }));
+ 
 
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);

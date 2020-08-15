@@ -3,20 +3,38 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { EmiCalculatorComponentComponent } from './emi-calculator-component/emi-calculator-component.component';
-import { EligibilityCalculatorComponentComponent } from './eligibility-calculator-component/eligibility-calculator-component.component';
-import { IncomeDetailsComponentComponent } from './income-details-component/income-details-component.component';
-import { PersonalDetailsComponentComponent } from './personal-details-component/personal-details-component.component';
-import { LoanDetailsComponentComponent } from './loan-details-component/loan-details-component.component';
+import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { HeaderComponent } from './header/header.component';
+import { EmicalculatorComponent } from './emicalculator/emicalculator.component';
+import { LoandetailsComponent } from './loandetails/loandetails.component';
+import { PersonaldetailsComponent } from './personaldetails/personaldetails.component';
+import { IncomedetailsComponent } from './incomedetails/incomedetails.component';
+import { EligibilitycalculatorComponent } from './eligibilitycalculator/eligibilitycalculator.component';
+
+
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';
+
+
+
+
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    EmiCalculatorComponentComponent,
-    EligibilityCalculatorComponentComponent,
-    IncomeDetailsComponentComponent,
-    PersonalDetailsComponentComponent,
-    LoanDetailsComponentComponent
+    HomeComponent,
+    NavbarComponent,
+    HeaderComponent,
+    EmicalculatorComponent,
+    LoandetailsComponent,
+    PersonaldetailsComponent,
+    IncomedetailsComponent,
+    EligibilitycalculatorComponent,
+   
   ],
   imports: [
     BrowserModule,
